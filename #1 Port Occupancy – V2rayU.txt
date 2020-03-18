@@ -1,0 +1,7 @@
+Port Occupancy – V2rayU
+
+If you configured V2rayU correctly but you still cannot connect to foreign websites, you can view the log about V2rayU to find whether there are some problems with your configuration. In most cases, the problem is Port Occupancy, which means you failed to connect to the websites because the port you configured is already in use. 
+
+The solution is open Configure –> Advance settings and then change the port you are using now. Restart the VPN software and you may connect to the websites you want successfully.
+
+Here is an example: When I viewed the log, I found the port 1087 was already in use, so I replaced it with another port (1088 or another port) and then it worked.
